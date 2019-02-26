@@ -27,6 +27,11 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectVB.My.Resources.Resources._52783796_411400509611254_927072710930989056_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Add_File_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -47,7 +52,17 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Cancel_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Close_Program_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Close_Window_48px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -62,17 +77,7 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ProjectVB.My.Resources.Resources.icons8_Delete_96px">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Denied_96px">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ProjectVB.My.Resources.Resources.icons8_Edit_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -102,12 +107,27 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Male_User_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Picture_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ProjectVB.My.Resources.Resources.icons8_Plus_Math_96px">
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Pictures_Folder_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Plus_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Positive_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -132,17 +152,17 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:ProjectVB.My.Resources.Resources.icons8_Save_48px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Search_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectVB.My.Resources.Resources.icons8_Search_Property_96px">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:ProjectVB.My.Resources.Resources.icons8_Settings_96px">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -157,7 +177,12 @@ ProjectVB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:ProjectVB.My.Resources.Resources.icons8_User_Account_96px">
+<member name="P:ProjectVB.My.Resources.Resources.icons8_User_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectVB.My.Resources.Resources.white_1556107_960_720">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

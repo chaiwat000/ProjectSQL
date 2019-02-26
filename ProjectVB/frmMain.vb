@@ -30,9 +30,11 @@
         out = MessageBox.Show("คุณต้องการออกจากระบบหรือไม่", "แจ้งเตือนจากระบบ", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
         If out = DialogResult.Yes Then
-
-            Me.Close()
-
+            frmLogin.Show()
+            frmLogin.txtUsername.Clear()
+            frmLogin.txtPassword.Clear()
+            frmLogin.txtUsername.Select()
+            Me.Hide()
         End If
     End Sub
 
@@ -46,5 +48,31 @@
         frmEmployee.Show()
 
         frmEmployee.MdiParent = Me
+    End Sub
+
+
+    Private Sub btnSale_Click(sender As Object, e As EventArgs) Handles btnSale.Click
+        Dim sale As New frmSale
+        sale.Show()
+
+        If status = "add" Then
+            With sale
+                .lblName.Text = "ADMIN"
+                .lblLevel.Text = menushowLevel.Text
+                .lblDT.Text = DateTime.Now
+            End With
+        Else
+            With sale
+                .lblName.Text = lblshowname.Text
+                .lblLevel.Text = menushowLevel.Text
+                .lblDT.Text = DateTime.Now
+            End With
+        End If
+        sale.MdiParent = Me
+    End Sub
+
+    Private Sub btnProduct_Click(sender As Object, e As EventArgs) Handles btnProduct.Click
+        frmProduct.Show()
+        frmProduct.MdiParent = Me
     End Sub
 End Class

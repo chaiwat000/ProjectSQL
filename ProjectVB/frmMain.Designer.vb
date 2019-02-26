@@ -30,15 +30,17 @@ Partial Class frmMain
         Me.btnProduct = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.btncheckPro = New System.Windows.Forms.ToolStripButton()
         Me.menuExit = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.menushowLevel = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
         Me.menushowUser = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
         Me.menushowDate = New System.Windows.Forms.ToolStripLabel()
-        Me.btncheckPro = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
+        Me.lblshowname = New System.Windows.Forms.ToolStripLabel()
         Me.ToolStrip1.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
         Me.SuspendLayout()
@@ -57,6 +59,7 @@ Partial Class frmMain
         '
         'ToolStrip1
         '
+        Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btnSale, Me.btnEmp, Me.btnCus, Me.btnProduct, Me.ToolStripButton5, Me.ToolStripButton6, Me.btncheckPro, Me.menuExit})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 52)
@@ -137,6 +140,18 @@ Partial Class frmMain
         Me.ToolStripButton6.Text = "ตรวจสอบยอดขาย"
         Me.ToolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
+        'btncheckPro
+        '
+        Me.btncheckPro.AutoSize = False
+        Me.btncheckPro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btncheckPro.Image = Global.ProjectVB.My.Resources.Resources.icons8_Hand_With_Pen_96px
+        Me.btncheckPro.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.btncheckPro.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.btncheckPro.Name = "btncheckPro"
+        Me.btncheckPro.Size = New System.Drawing.Size(150, 150)
+        Me.btncheckPro.Text = "ตรวจสอบวัตถุดิบ"
+        Me.btncheckPro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
         'menuExit
         '
         Me.menuExit.AutoSize = False
@@ -148,17 +163,6 @@ Partial Class frmMain
         Me.menuExit.Size = New System.Drawing.Size(150, 150)
         Me.menuExit.Text = "Exit"
         Me.menuExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStrip2
-        '
-        Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.menushowLevel, Me.ToolStripLabel3, Me.menushowUser, Me.ToolStripLabel2, Me.menushowDate})
-        Me.ToolStrip2.Location = New System.Drawing.Point(0, 661)
-        Me.ToolStrip2.Name = "ToolStrip2"
-        Me.ToolStrip2.Size = New System.Drawing.Size(1342, 25)
-        Me.ToolStrip2.TabIndex = 10
-        Me.ToolStrip2.Text = "ToolStrip2"
         '
         'ToolStripLabel1
         '
@@ -202,17 +206,30 @@ Partial Class frmMain
         Me.menushowDate.Size = New System.Drawing.Size(37, 22)
         Me.menushowDate.Text = "xxxx"
         '
-        'btncheckPro
+        'ToolStrip2
         '
-        Me.btncheckPro.AutoSize = False
-        Me.btncheckPro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btncheckPro.Image = Global.ProjectVB.My.Resources.Resources.icons8_Hand_With_Pen_96px
-        Me.btncheckPro.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.btncheckPro.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.btncheckPro.Name = "btncheckPro"
-        Me.btncheckPro.Size = New System.Drawing.Size(150, 150)
-        Me.btncheckPro.Text = "ตรวจสอบวัตถุดิบ"
-        Me.btncheckPro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.menushowLevel, Me.ToolStripLabel3, Me.menushowUser, Me.ToolStripLabel4, Me.lblshowname, Me.ToolStripLabel2, Me.menushowDate})
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 661)
+        Me.ToolStrip2.Name = "ToolStrip2"
+        Me.ToolStrip2.Size = New System.Drawing.Size(1342, 25)
+        Me.ToolStrip2.TabIndex = 10
+        Me.ToolStrip2.Text = "ToolStrip2"
+        '
+        'ToolStripLabel4
+        '
+        Me.ToolStripLabel4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.ToolStripLabel4.Name = "ToolStripLabel4"
+        Me.ToolStripLabel4.Size = New System.Drawing.Size(60, 22)
+        Me.ToolStripLabel4.Text = "Name  :"
+        '
+        'lblshowname
+        '
+        Me.lblshowname.ForeColor = System.Drawing.Color.Green
+        Me.lblshowname.Name = "lblshowname"
+        Me.lblshowname.Size = New System.Drawing.Size(30, 22)
+        Me.lblshowname.Text = "xxx"
         '
         'frmMain
         '
@@ -247,12 +264,14 @@ Partial Class frmMain
     Friend WithEvents ToolStripButton6 As ToolStripButton
     Friend WithEvents menuExit As ToolStripButton
     Friend WithEvents ToolStripButton5 As ToolStripButton
-    Friend WithEvents ToolStrip2 As ToolStrip
+    Friend WithEvents btncheckPro As ToolStripButton
     Friend WithEvents ToolStripLabel1 As ToolStripLabel
     Friend WithEvents menushowLevel As ToolStripLabel
     Friend WithEvents ToolStripLabel3 As ToolStripLabel
     Friend WithEvents menushowUser As ToolStripLabel
     Friend WithEvents ToolStripLabel2 As ToolStripLabel
     Friend WithEvents menushowDate As ToolStripLabel
-    Friend WithEvents btncheckPro As ToolStripButton
+    Friend WithEvents ToolStrip2 As ToolStrip
+    Friend WithEvents ToolStripLabel4 As ToolStripLabel
+    Friend WithEvents lblshowname As ToolStripLabel
 End Class

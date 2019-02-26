@@ -11,13 +11,13 @@
     <Setting Name="name" Type="System.String" Scope="User">
       <Value Profile="(Default)">Adminministator</Value>
     </Setting>
-    <Setting Name="strcon" Type="(Connection string)" Scope="Application">
+    <Setting Name="strcn" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=(local)\SQLEXPRESS;Initial Catalog=Ice_Cream_Shop;User ID=sa;Password=1234&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=(local)\SQLEXPRESS;Initial Catalog=dbProject;User ID=sa;Password=1234&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=(local)\SQLEXPRESS;Initial Catalog=Ice_Cream_Shop;User ID=sa;Password=1234</Value>
+      <Value Profile="(Default)">Data Source=(local)\SQLEXPRESS;Initial Catalog=dbProject;User ID=sa;Password=1234</Value>
     </Setting>
   </Settings>
 </SettingsFile>

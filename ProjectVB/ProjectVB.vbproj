@@ -102,12 +102,6 @@
     <Compile Include="frmProduct.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegis.Designer.vb">
-      <DependentUpon>frmRegis.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegis.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmSale.Designer.vb">
       <DependentUpon>frmSale.vb</DependentUpon>
     </Compile>
@@ -156,9 +150,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmProduct.resx">
       <DependentUpon>frmProduct.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegis.resx">
-      <DependentUpon>frmRegis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSale.resx">
       <DependentUpon>frmSale.vb</DependentUpon>
@@ -313,6 +304,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_Positive_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-1556107_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Person_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Male_User_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52783796_411400509611254_927072710930989056_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Save_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Close_Window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Pictures_Folder_48px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

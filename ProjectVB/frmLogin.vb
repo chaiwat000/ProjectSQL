@@ -33,37 +33,54 @@
         End If
 
         If radEmployee.Checked = True Then
-            sql = "select count(*) from employees where emp_user = '" & txtUsername.Text & "'AND emp_pass ='" & txtPassword.Text & "'"
-            cmd = New SqlClient.SqlCommand(sql, con)
-            cmd.ExecuteScalar()
 
-            If cmd.ExecuteScalar <= 0 Then
+            sql = "select * from Employee where emp_username = '" & txtUsername.Text & "'AND emp_password ='" & txtPassword.Text & "'"
+            cmd = New SqlClient.SqlCommand(sql, con)
+            Dim value As String = cmd.ExecuteScalar
+            If value < 0 Then
                 MsgBox("เข้าสู่ระบบโดยพนักงานล้มเหลว")
                 txtUsername.Text = ""
                 txtPassword.Text = ""
                 txtUsername.Select()
             Else
                 MsgBox("เข้าสู่ระบบโดยพนักงานสำเร็จ")
+                status = "emp"
                 frmMain.Show()
                 frmMain.btnEmp.Enabled = False
 
 
+
+                sql = "select * from Employee where emp_username = '" & txtUsername.Text & "'And emp_password = '" & txtPassword.Text & "'"
+                DA = New SqlClient.SqlDataAdapter(sql, con)
+                DS = New DataSet
+                DA.Fill(DS, "table")
+                DT = DS.Tables("table")
+
                 With frmMain
                     .menushowLevel.Text = "EMPLOYEE"
                     .menushowUser.Text = txtUsername.Text
+                    .lblshowname.Text = dt.Rows(0)("emp_name")
                 End With
+
+                With frmSale
+                    .lblLevel.Text = "EMPLOYEE"
+                    .lblName.Text = dt.Rows(0)("emp_name")
+                End With
+
                 Me.Hide()
                 radEmployee.Checked = False
             End If
 
-
-
         Else
+
             If txtUsername.Text = My.Settings.username And txtPassword.Text = My.Settings.pass Then
                 MessageBox.Show("เข้าสู่ระบบด้วย Adminministator สำเร็จ")
+                status = "add"
                 With frmMain
                     .menushowLevel.Text = "ADMINMINISTATOR"
                     .menushowUser.Text = txtUsername.Text
+                    .lblshowname.Visible = False
+                    .ToolStripLabel4.Visible = False
                 End With
                 frmMain.Show()
                 Me.Hide()
@@ -87,11 +104,5 @@
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
         Me.Close()
     End Sub
-
-    Private Sub linkRegis_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkRegis.LinkClicked
-        frmRegis.Show()
-        Me.Hide()
-    End Sub
-
 
 End Class

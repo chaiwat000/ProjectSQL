@@ -11,6 +11,6 @@ D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.xml
 D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.pdb
 D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmLogin.resources
 D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmMain.resources
-D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmRegis.resources
 D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmEmployee.resources
 D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmSale.resources
+D:\Project\ProjectVB\ProjectVB\obj\Debug\ProjectVB.frmProduct.resources

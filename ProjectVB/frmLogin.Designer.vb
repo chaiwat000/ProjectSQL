@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmLogin
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lbltitle = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -29,7 +29,6 @@ Partial Class frmLogin
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
-        Me.linkRegis = New System.Windows.Forms.LinkLabel()
         Me.chkShowHidePassword = New System.Windows.Forms.CheckBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
@@ -47,7 +46,7 @@ Partial Class frmLogin
         Me.lbltitle.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.lbltitle.Location = New System.Drawing.Point(0, 0)
         Me.lbltitle.Name = "lbltitle"
-        Me.lbltitle.Size = New System.Drawing.Size(390, 52)
+        Me.lbltitle.Size = New System.Drawing.Size(396, 52)
         Me.lbltitle.TabIndex = 0
         Me.lbltitle.Text = "โปรดเข้าสู่ระบบ"
         Me.lbltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -55,7 +54,7 @@ Partial Class frmLogin
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(45, 281)
+        Me.Label2.Location = New System.Drawing.Point(41, 274)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(81, 17)
         Me.Label2.TabIndex = 0
@@ -64,7 +63,7 @@ Partial Class frmLogin
         'txtUsername
         '
         Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(132, 271)
+        Me.txtUsername.Location = New System.Drawing.Point(128, 264)
         Me.txtUsername.Multiline = True
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(191, 33)
@@ -73,7 +72,7 @@ Partial Class frmLogin
         'txtPassword
         '
         Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(132, 324)
+        Me.txtPassword.Location = New System.Drawing.Point(128, 317)
         Me.txtPassword.Multiline = True
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
@@ -83,7 +82,7 @@ Partial Class frmLogin
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(45, 334)
+        Me.Label3.Location = New System.Drawing.Point(41, 327)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(77, 17)
         Me.Label3.TabIndex = 2
@@ -92,8 +91,9 @@ Partial Class frmLogin
         'btnLogin
         '
         Me.btnLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnLogin.Location = New System.Drawing.Point(104, 574)
+        Me.btnLogin.Location = New System.Drawing.Point(100, 567)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(75, 39)
         Me.btnLogin.TabIndex = 4
@@ -103,28 +103,19 @@ Partial Class frmLogin
         'btnClose
         '
         Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnClose.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClose.Location = New System.Drawing.Point(200, 574)
+        Me.btnClose.Location = New System.Drawing.Point(196, 567)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(75, 39)
         Me.btnClose.TabIndex = 5
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = False
         '
-        'linkRegis
-        '
-        Me.linkRegis.AutoSize = True
-        Me.linkRegis.Location = New System.Drawing.Point(312, 597)
-        Me.linkRegis.Name = "linkRegis"
-        Me.linkRegis.Size = New System.Drawing.Size(65, 17)
-        Me.linkRegis.TabIndex = 6
-        Me.linkRegis.TabStop = True
-        Me.linkRegis.Text = "Register "
-        '
         'chkShowHidePassword
         '
         Me.chkShowHidePassword.AutoSize = True
-        Me.chkShowHidePassword.Location = New System.Drawing.Point(132, 364)
+        Me.chkShowHidePassword.Location = New System.Drawing.Point(128, 357)
         Me.chkShowHidePassword.Name = "chkShowHidePassword"
         Me.chkShowHidePassword.Size = New System.Drawing.Size(170, 21)
         Me.chkShowHidePassword.TabIndex = 8
@@ -136,7 +127,7 @@ Partial Class frmLogin
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Controls.Add(Me.radEmployee)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(132, 401)
+        Me.GroupBox1.Location = New System.Drawing.Point(128, 394)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(200, 101)
         Me.GroupBox1.TabIndex = 9
@@ -170,7 +161,7 @@ Partial Class frmLogin
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.ProjectVB.My.Resources.Resources._240_F_153664577_gzalhQomv1V2eaDkEmjnTadRjGNTLzur
-        Me.PictureBox1.Location = New System.Drawing.Point(58, 80)
+        Me.PictureBox1.Location = New System.Drawing.Point(54, 73)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(276, 168)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -181,22 +172,21 @@ Partial Class frmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(390, 625)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.chkShowHidePassword)
+        Me.ClientSize = New System.Drawing.Size(396, 625)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.linkRegis)
         Me.Controls.Add(Me.btnClose)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lbltitle)
-        Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtUsername)
-        Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label3)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Controls.Add(Me.chkShowHidePassword)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.btnLogin)
+        Me.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.Name = "frmLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "frmLogin"
+        Me.Text = "ระบบล็อกอิน"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -212,7 +202,6 @@ Partial Class frmLogin
     Friend WithEvents Label2 As Label
     Friend WithEvents btnClose As Button
     Friend WithEvents btnLogin As Button
-    Friend WithEvents linkRegis As LinkLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents chkShowHidePassword As CheckBox
     Friend WithEvents GroupBox1 As GroupBox

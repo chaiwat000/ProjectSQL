@@ -93,11 +93,11 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\SQLEXPRESS;Initial Catalog=Ice_Cream_Shop;User ID=sa;Password"& _ 
-            "=1234")>  _
-        Public ReadOnly Property strcon() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\SQLEXPRESS;Initial Catalog=dbProject;User ID=sa;Password=1234"& _ 
+            "")>  _
+        Public ReadOnly Property strcn() As String
             Get
-                Return CType(Me("strcon"),String)
+                Return CType(Me("strcn"),String)
             End Get
         End Property
     End Class
